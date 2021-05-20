@@ -14,7 +14,7 @@ server.use(routes);
 
 server.set("view engine", "njk");
 
-nunjucks.configure("./app/views", {
+nunjucks.configure("src/app/views", {
   express: server,
   autoescape: false,
   noCache: true,
